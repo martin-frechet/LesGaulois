@@ -1,8 +1,19 @@
 package personnages;
 
-public class Gaulois {
+public class Village {
 	private String nom;
-	private int force;
-	private int effetPotion = 1;
-
+	private Chef chef;
+	
+	public Village(String nom) {
+		this.nom = nom;
+	}
+	
+	public void setChef(Chef chef) {
+		this.chef = chef;
+	}
+	
+	public String getNom() {
+		return nom;
+	}
 }
+
